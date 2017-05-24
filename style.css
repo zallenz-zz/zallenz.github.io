@@ -4,14 +4,15 @@ html {
     background-size: cover;
 }
 body {
+    height: 100%;
     font-family: Helvetica, Arial;
     font-size: 20px;
     margin-left:10%;
     margin-right:10%;
 }
-.title{
+h1{
     font-style: italic;
-    font-weight:bold;
+    font-weight: bold;
 }
 .propic{
     margin: auto;
