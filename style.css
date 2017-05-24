@@ -12,9 +12,9 @@ body {
     text-align: center;
 }
 .propic{
-    margin-left: 50px;
-    max-height: 70%;
-    max-width: 70%;
+    margin-left: 25px;
+    max-height: 50%;
+    max-width: 50%;
 }
 .link{
     border-left: 6px solid black;
