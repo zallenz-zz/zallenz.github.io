@@ -8,8 +8,10 @@ body {
     font-style: italic;
     font-weight:bold;
 }
-#propic img{
+img{
     position: absolute;
+    height: auto;
+    width: auto;
     margin: auto;
     min-height: 30%;
     min-width: 30%;
