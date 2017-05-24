@@ -13,9 +13,10 @@ body {
     text-align: center;
 }
 .propic{
-    margin-left: 25px;
+    margin: auto;
     max-height: 50%;
     max-width: 50%;
+    border-style: double;
 }
 .link{
     border-left: 6px solid black;
