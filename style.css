@@ -1,0 +1,10 @@
+body {
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+    margin-left:10%;
+    margin-right:10%;
+}
+.title{
+    font-style: italic;
+    font-weight:bold;
+}
