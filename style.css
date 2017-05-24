@@ -1,21 +1,21 @@
-html {
-    height:100%;
+body {
     background: url(background.jpg);
     background-size: cover;
-}
-body {
     height: 100%;
     font-family: Helvetica, Arial;
     font-size: 20px;
     margin-left:10%;
     margin-right:10%;
 }
-h1{
-    font-style: italic;
-    font-weight: bold;
+.center{
+    text-align: center;
 }
 .propic{
     margin: auto;
     max-height: 30%;
     max-width: 30%;
+}
+.link{
+    border-left: 6px solid black;
+    background-color: lightgrey;
 }

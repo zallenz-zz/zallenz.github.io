@@ -8,11 +8,15 @@
         </head>
 
         <body>
-                <h1>Allen Zhou</h1>
-		<p><img src="Allen.jpg" alt="ProfilePic"/></p>
+          <h1 class="center">Allen Zhou</h1>
+	        <div class="propic">
+		  <img class="propic" img src="Allen.jpg" alt="ProfilePic"/>
+		</div>
+		<div class="link">
 		<a href = "bio.html">
 			<h2>Biography</h2>
                 </a>
+		</div>
                 <a href = "resume.html">
 		        <h2>Resume</h2>
 		</a>
