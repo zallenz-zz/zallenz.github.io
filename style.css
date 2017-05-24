@@ -1,6 +1,7 @@
 body {
     background: url(background.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 100%;
     font-family: Helvetica, Arial;
     font-size: 20px;
@@ -11,9 +12,9 @@ body {
     text-align: center;
 }
 .propic{
-    margin: auto;
-    max-height: 30%;
-    max-width: 30%;
+    margin-left: 50px;
+    max-height: 70%;
+    max-width: 70%;
 }
 .link{
     border-left: 6px solid black;
