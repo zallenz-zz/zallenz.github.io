@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+        <head>
+        <title>Homepage</title>
+        <meta charset="utf-8"/>
+	<link rel="stylesheet" href="style.css" />
+        </head>
+
+        <body>
+          <h1 class="center">Allen Zhou</h1>
+	        <div class="propic">
+		  <img class="propic" img src="Allen.jpg" alt="ProfilePic"/>
+		  <div class="link">
+		    <a href = "bio.html">
+		      <h2>Biography</h2>
+                    </a>
+		  </div>
+		  <div class="link">
+                    <a href = "resume.html">
+		      <h2>Resume</h2>
+		    </a>
+		  </div>
+		</div>
+	</body>
+
+</html>
