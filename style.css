@@ -12,6 +12,9 @@ body {
 .center{
     text-align: center;
 }
+.bold{
+    font: bold;
+}
 img.propic{
     text-align: center;
     margin: auto;
