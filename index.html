@@ -1,29 +1,45 @@
 <!doctype html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <head>
-  <title>Homepage</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" href="style.css" />
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <head>
+        <link rel ="icon" href="images/bluea.jpg">
+        <title>Home</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-  <body>
-    <h1 class="center">Allen Zhou</h1>
-    <img class="propic" src="Allen.jpg" alt="ProfilePic"/>
-    <p>
-      Hi! I'm Allen, a Sophomore at Tufts University studying
-      computer science and music.
-    </p>
-    <div class="link">
-      <a href = "bio.html">
-        <h2>Biography</h2>
-      </a>
-    </div>
-    <div class="link">
-      <a href = "resume.html">
-        <h2>Resume</h2>
-      </a>
-    </div>
-  </body>
+    <body>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#">Bio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="https://github.com/zallenz" target="_blank">Github</a></li>
+        </ul>
 
+<!--         <div class="navbar horizflex leftjust">
+            <div class="link">
+                <a href = "bio.html">
+                    <h2>Biography</h2>
+                </a>
+            </div>
+            <div class="link">
+                <a href = "resume.html">
+                    <h2>Resume</h2>
+                </a>
+            </div>      
+        </div> -->
+        <h1 class="center">Allen Zhou</h1>
+        <div class="horizflex">
+            <img class ="center" id="propic" src="images/profile.jpg" alt="ProfilePic"/>
+            <p class="vertcenter center" >
+                Hi! I'm Allen, a Senior at Tufts University studying
+                Computer Science and Music Engineering. I'm passionate
+                about music technology 
+            </p>
+        </div>
+
+    </body>
 </html>
