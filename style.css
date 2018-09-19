@@ -1,7 +1,10 @@
 html {
-    background: url(background.jpg) no-repeat center center fixed;
+    background: url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
-    overflow: hidden;
+
+}
+* {
+    font-family: 'Karla', sans-serif;
 }
 body {
     height: 100%;
@@ -10,12 +13,20 @@ body {
     margin-left: 3%;
     margin-right: 3%;
 }
-
+h4{
+    margin-top: 0%;
+}
+iframe{
+    float: left;
+}
 .center{
     text-align: center;
 }
 .vertcenter{
     vertical-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 .navbar {
     margin-top: 0%;
@@ -25,12 +36,27 @@ body {
 .bold{
     font-weight: bold;
 }
-.horizflex {
+.horizflex, .vertflex{
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
+}
+.vertflex {
+    flex-direction: column;
+}
+.vertflex > div {
+    margin-top: 60px;
+}
+.thirds {
+    height: 33%;
+}
+
+.projimg, iframe {
+    float: left;
+    width: 50%;
+    margin-right: 2%;
 }
 .leftjust {
     justify-content: left;
@@ -47,6 +73,7 @@ body {
     height: 30%;
     border-style: none;
 }
+
 .hidden {
     display: none;
 }

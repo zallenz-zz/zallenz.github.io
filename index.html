@@ -1,53 +1,59 @@
 <!doctype html>
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
     <head>
         <link rel ="icon" href="images/bluea.jpg">
-        <title>Home</title>
+        <title>Allen Z</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     </head>
 
     <body>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li id="hometab"><a class="active" href="#">Home</a></li>
+            <li id="projecttab"><a href="#">Projects</a></li>
+            <li><a href="mailto:allen.zhou@tufts.edu">Contact</a></li>
             <li><a href="Resume.pdf" target="_blank">Resume</a></li>
             <li><a href="https://github.com/zallenz" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/allen-z-304617b1/" target="_blank">LinkedIn</a></li>
         </ul>
-        <h1 id="name">Allen Zhou</h1>
-<!--         <div class="navbar horizflex leftjust">
-            <div class="link">
-                <a href = "bio.html">
-                    <h2>Biography</h2>
-                </a>
-            </div>
-            <div class="link">
-                <a href = "resume.html">
-                    <h2>Resume</h2>
-                </a>
-            </div>      
-        </div> -->
-        <div id="home">
-
+        <div id="home" class="hidden">
+            <h1 id="name">Allen Zhou</h1>
             <div class="horizflex">
                 <img class ="center" id="propic" src="images/profile.jpg" alt="ProfilePic"/>
-                <p class="vertcenter center" >
-                    Hi! I'm Allen, a Senior at Tufts University studying
-                    Computer Science and Music Engineering. I'm passionate
-                    about music technology 
-                </p>
+                <h3 class="vertcenter center" >
+                    Hi! I'm Allen, a Senior at Tufts University studying Computer Science and Music Engineering. I love to record, film, produce, and perform music, and am passionate about music technology. I am actively searching for full time positions in the industry for Summer 2019.
+                </h3>
             </div>
         </div>
+
         <div id="projects" class="hidden">
+            <div class="vertflex">
+                <div id="kurzweil">
+                    <a href="http://kurzweil.com/" target="_blank"><img class ="center projimg" src="images/kurzweil.jpg" alt="Kurzweil piano"/></a>
+                    <h4>Kurzweil Research and Development</h4><p> In Summer of 2018 I developed two web interfaces for Kurzweil, the HomePianoApp and the WebSynth. I provided control for the CUP and Forte series home and stage pianos via MIDI over USB. The sites allowed easy access to musical parameters on both desktop and mobile platforms. Implemented using Kurzweil’s system exclusive MIDI protocol, Google’s WebMIDI API, Javascript, and HTML.</p>
+                </div>
+
+                <div id="textbook">
+                    <img class ="center projimg" src="images/textbook.png" alt="textbook"/>
+                    <h4>Tufts Textbook Exchange Network</h4><p> Starting in the Summer of 2017, I helped develop and maintain the Tufts Textbook Exchange website that has facilitated over twenty thousand dollars of used textbook sales at Tufts. I built the back end server with Node.js and used Javascript and HTML to create the front end user interface.</p>
+                </div>
+
+<!--                 <div id="emid">
+                </div>
+                <div id="tor">
+                </div> -->
+                <div id="unplugged">
+                    <iframe width="480" height="315" src="https://www.youtube.com/embed/u_VbR6cn80M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <h4>Tufts Unplugged</h4><p>Tufts Unplugged is an acoustic music video series I produced, all featuring Tufts students. I was the audio engineer for each session, and did most of the video editing. Over the years, I used Sonar X3 (R.I.P. Cakewalk), ProTools, Adobe Premiere, and Adobe Audition.</p>
+                </div>
+
+            </div>
 
         </div>
-        <div id="resume" class="hidden">
-
-        </div>
-        <div 
     </body>
 </html>
