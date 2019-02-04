@@ -57,6 +57,7 @@ iframe{
     float: left;
     width: 50%;
     margin-right: 2%;
+    border-radius:3%;
 }
 .leftjust {
     justify-content: left;
